@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio" />
+    <meta name="author" content="nandev" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <title>Yoonho Hwang Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/8612f70d27.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">Yoonho Hwang</a>
+      </div>
+
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">
+          Testimonial
+        </li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+
+      <!-- toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="img/profile.jpg"
+          alt="profile photo"
+          class="home__avatar"
+        />
+        <h1 class="home__title">Hello, <br />I'm Yoonho</h1>
+        <h2 class="home__description">
+          A Full-Stack Developer currently residing in Toronto, Canada.
+        </h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="section">
+      <h1>About me</h1>
+      <p>
+        Full Stack Developer with hands-on experience designing, developing, and implementing applications and solutions 
+        using a range of technologies and programming languages.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Languages</h2>
+          <div class="major__description">
+            C#, Javascript, Java <br />
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Front-end</h2>
+          <div class="major__description">
+            HTML, CSS, Typescript, <br />
+            ReactJS, AngularJS
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Back-end</h2>
+          <div class="major__description">
+            .NET, ExpressJS, Spring <br />
+            MySQL, MongoDB
+          </div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="img/favicon.png" alt="logo" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <p class="job__period">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="job">
+          <img src="img/favicon.png" alt="logo" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <p class="job__period">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Arrtibutes</h2>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 99%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>ReactJS</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>MongoDB</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>.NET</span>
+                <span>85%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>NODEJS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Vscode</span></li>
+                <li><span>Visual Studio</span></li>
+                <li><span>IntelliJ</span></li>
+                <li><span>vscode</span></li>
+                <li><span>vscode</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>git</span></li>
+                <li><span>scrum</span></li>
+                <li><span>math</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <section id="work" class="section">
+      <div class="section__container">
+        <h1>My Work</h1>
+        <h3>Project</h3>
+        <div class="work__categories">
+          <button class="category__btn selected" data-filter="*">
+            All<span class="category__count"></span>
+          </button>
+          <button class="category__btn" data-filter="mern">
+            MERN
+          </button>
+          <button class="category__btn" data-filter="back-end">
+            Back-end<span class="category__count">3</span>
+          </button>
+          <button class="category__btn" data-filter="mobile">
+            Mobile<span class="category__count">2</span>
+          </button>
+        </div>
+
+        <div class="work__projects">
+          <a href="#" class="project" data-type="mern">
+            <img
+              src="img/projects/project1.png"
+              alt="project"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>eCommerce Platform</h3>
+              <span
+                >Built a custom eCommerce platform with React, Redux, Node, Express & MongoDB</span
+              >
+            </div>
+          </a>
+          <a href="#" class="project" data-type="mobile">
+            <img
+              src="img/projects/project.png"
+              alt="project"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>youtube site</h3>
+              <span
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span
+              >
+            </div>
+          </a>
+          <a href="#" class="project" data-type="back-end">
+            <img
+              src="img/projects/project.png"
+              alt="project"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>youtube site</h3>
+              <span
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span
+              >
+            </div>
+          </a>
+          <a href="#" class="project" data-type="back-end">
+            <img
+              src="img/projects/project.png"
+              alt="project"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>youtube site</h3>
+              <span
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="section">
+      <div class="section__container">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img
+              src="img/testimonial/people.jpeg"
+              alt=""
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                fuga libero nulla eveniet aperiam laborum, quis provident
+                quibusdam officiis reprehenderit, placeat neque perspiciatis
+                vero explicabo tempora, dignissimos accusantium inventore
+                ducimus!
+              </p>
+              <p class="name"><a href="#">Ellie</a> / samsung</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                fuga libero nulla eveniet aperiam laborum, quis provident
+                quibusdam officiis reprehenderit, placeat neque perspiciatis
+                vero explicabo tempora, dignissimos accusantium inventore
+                ducimus!
+              </p>
+              <p class="name"><a href="#">Ellie</a> / samsung</p>
+            </div>
+            <img
+              src="img/testimonial/people.jpeg"
+              alt=""
+              class="testimonial__avatar"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">yoonhoh84@gmail.com</h2>
+      <div class="contact__links">
+        <a href="#">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </div>
+      <p class="contact__rights">
+        2022 All rights reserved
+      </p>
+    </section>
+
+    <!-- arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
