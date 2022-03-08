@@ -250,6 +250,10 @@ p {
   text-align: left;
 }
 
+.job__description a{
+  color: #000051;
+}
+
 .job__name,
 .job__period {
   color: var(--color-light-grey);
@@ -457,9 +461,10 @@ p {
 }
 
 .testimonial__speech-bubble {
-  padding: 18px;
+  padding: 38px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
+  margin:auto;
 }
 
 .testimonial__speech-bubble p {
