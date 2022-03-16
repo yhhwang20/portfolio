@@ -467,6 +467,10 @@ p {
   margin:auto;
 }
 
+.testimonial__speech-bubble ul li {
+  float: left;
+}
+
 .testimonial__speech-bubble p {
   color: var(--color-light-grey);
 }
